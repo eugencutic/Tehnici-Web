@@ -1,0 +1,30 @@
+header
+{
+    text-align: center
+}
+body
+{
+    background-color:  #99ebff;
+    
+}
+header img
+{
+    height: 100%;
+}
+table,tr,th
+{
+    border-style: solid;
+    border-color: #00b8e6;
+}
+tr:nth-of-type(2n)
+{
+    background-color: #ffff99;
+}
+tr:nth-of-type(2n+1)
+{
+    background-color: #ffff33;
+}
+#progLangTable
+{
+    color: #006600;
+}
