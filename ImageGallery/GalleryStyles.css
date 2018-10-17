@@ -2,13 +2,17 @@ figure
 {
     border-style: solid;
     display: inline-block;
+    width: 25%;
+    height: auto;
 }
 figcaption
 {
     border-style: dashed;
+    padding: 5%;
+    margin: 5%;
 }
-img
+figure img
 {
-    height: 75%;
-    width: 75%;
+    height: auto;
+    max-width: 100%;
 }
