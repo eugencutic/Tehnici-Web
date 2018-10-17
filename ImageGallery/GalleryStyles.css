@@ -1,0 +1,14 @@
+figure
+{
+    border-style: solid;
+    display: inline-block;
+}
+figcaption
+{
+    border-style: dashed;
+}
+img
+{
+    height: 75%;
+    width: 75%;
+}
