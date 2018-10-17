@@ -23,3 +23,11 @@ figure:hover
     margin: 0%;
     width: 29%;
 }
+ul li ul
+{
+    visibility: hidden;
+}
+ul li ul:hover
+{
+    visibility: visible;
+}
