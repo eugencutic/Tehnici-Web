@@ -1,3 +1,7 @@
+body
+{
+    background: #990000;
+}
 figure
 {
     border-style: solid;
@@ -12,6 +16,7 @@ figcaption
     border-style: dashed;
     padding: 5%;
     margin: 5%;
+    font-size: 20px;
 }
 figure img
 {
@@ -27,7 +32,23 @@ ul li ul
 {
     visibility: hidden;
 }
-ul li ul:hover
+ul li:hover ul
 {
     visibility: visible;
 }
+li
+{
+    border: solid 1px;
+}
+nav>ul>li
+{
+    display: inline-block;
+    vertical-align: top;
+}
+/*@media screen and (max-width: 600px)
+{
+    figure
+{
+    display: block;
+}
+}*/
