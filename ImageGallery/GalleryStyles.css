@@ -4,6 +4,8 @@ figure
     display: inline-block;
     width: 25%;
     height: auto;
+    margin: 2%;
+    margin-top: 50px;
 }
 figcaption
 {
@@ -15,4 +17,9 @@ figure img
 {
     height: auto;
     max-width: 100%;
+}
+figure:hover
+{
+    margin: 0%;
+    width: 29%;
 }
