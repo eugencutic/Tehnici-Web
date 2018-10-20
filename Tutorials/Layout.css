@@ -1,0 +1,28 @@
+header
+{
+    text-align: center;
+    background-color: crimson;
+    padding: 20px;
+}
+#musNote
+{
+    height: 30px;
+    width: 40px;
+}
+nav
+{
+    overflow: hidden;
+    background-color: black;
+}
+nav a
+{
+    float: left;
+    color: white;
+    display: block;
+    padding: 14px 16px;
+}
+nav a:hover
+{
+    background-color: crimson;
+    color: black;
+}
