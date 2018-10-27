@@ -14,18 +14,45 @@ nav
     overflow: hidden;
     background-color: black;
 }
-nav a
+nav ul
+{
+    list-style: none;
+    font-weight: bold;
+    float: left;
+    width: 100%;
+}
+
+nav ul li
 {
     float: left;
-    color: white;
-    display: block;
-    padding: 14px 16px;
+    margin-right: 10px;
 }
+
+nav a
+{
+    display: block;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
 nav a:hover
 {
     background-color: crimson;
     color: black;
 }
+
+nav ul ul
+{
+    list-style: none;
+    display: none;
+}
+
+nav ul li:hover ul
+{
+    display: inline-block;
+}
+
 body>div
 {
     align-content: center;
@@ -39,4 +66,10 @@ body>div
     content: "";
     display: table;
     clear: both;
+}
+footer
+{
+    text-align: center;
+    background-color: crimson;
+    padding: 20px;
 }

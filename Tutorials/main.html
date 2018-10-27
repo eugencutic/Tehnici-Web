@@ -9,31 +9,58 @@
     <!--<link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
     <script src="main.js"></script>
 </head>
+
 <body>
+
     <header>
         <span><img id="musNote" src="musicalNote.png" alt=" "></span>
         Header 
         <span><img id="musNote" src="musicalNote.png" alt=" "></span>
     </header>
+
     <nav>
-        
-        <a href="page1.html">Page 1</a>
-        <a href="page2.html">Page 2</a>
+
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+
+            <li>
+                <a href="#">Guitar types</a>
+
+                <ul>
+
+                    <li><a href="page1.html">Classical</a></li>
+                    <li><a href="page2.html">Electric</a></li>
+                    <li><a href="page3.html">Acoustic</a></li>
+
+                </ul>
+
+            </li>
+        </ul>
+
     </nav>
+
     <div class="row">
 
         <div class="column">
-            <h2> Content 1 </h2>
+            <h2>  History </h2>
+            <iframe src="https://www.youtube.com/embed/SYkJED5mZgM" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
             <p> Some text </p>
         </div>
 
         <div class="column">
-            <h2> Content 2 </h2>
+            <h2> Music </h2>
         </div>
     
         <div class="column">
-            <h2> Content 3 </h2>
+            <h2> Construction </h2>
         </div>
     </div>
+
+    <footer>
+        This project was created with CSS, HTML and JS;
+    </footer>
+    
 </body>
 </html>
