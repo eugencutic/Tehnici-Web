@@ -53,6 +53,32 @@ nav ul li:hover ul
     display: inline-block;
 }
 
+.wrapper
+{
+    overflow: hidden;
+}
+
+.sliding-background
+{
+    background: repeat-x;
+    background-image: url("./backgroundCollage.jpg");
+    height: 200px;
+    width: 5076px;
+    animation: slide 60s linear infinite;
+}
+
+@keyframes slide
+{
+    0%
+    {
+        transform: translate3d(0, 0, 0);
+    }
+    100%
+    {
+        transform: translate3d(-1692px, 0 , 0);
+    }
+}
+
 body>div
 {
     align-content: center;
