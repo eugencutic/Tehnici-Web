@@ -84,7 +84,6 @@ footer
 .guitarFig {
     width: 25%;
     float: right;
-    /*display: inline-block;*/
     border: 1px dotted;
     margin: 10px; 
 }
