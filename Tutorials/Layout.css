@@ -73,3 +73,31 @@ footer
     background-color: crimson;
     padding: 20px;
 }
+
+.guitarImg
+{
+    float: left;
+    height: 25%;
+    width: 100%;
+}
+
+.guitarFig {
+    width: 25%;
+    float: right;
+    display: inline-block;
+    border: 1px dotted;
+    margin: 10px; 
+}
+.guitarFig figcaption {
+    border: 1px dotted;
+    text-align: center;
+    background-color: crimson;
+}
+
+@media screen and (max-width: 600px)
+{
+    .column
+    {
+        width: 100%;
+    }
+}
