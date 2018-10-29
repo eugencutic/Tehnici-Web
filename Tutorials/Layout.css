@@ -107,13 +107,15 @@ footer
     width: 100%;
 }
 
-.guitarFig {
+.guitarFig 
+{
     width: 25%;
     float: right;
     border: 1px dotted;
     margin: 10px; 
 }
-.guitarFig figcaption {
+.guitarFig figcaption 
+{
     border: 1px dotted;
     text-align: center;
     background-color: crimson;
@@ -126,3 +128,35 @@ footer
         width: 100%;
     }
 }
+
+#electricConstructSchema 
+{
+    padding: 0px;
+    counter-reset: item;
+    list-style-position: inside;
+}
+#electricConstructSchema ol 
+{ 
+    padding: 0px;
+    counter-reset: item;
+    list-style-position: inside;
+}
+#electricConstructSchema li
+{ 
+    display: block 
+}
+#electricConstructSchema li:before 
+{ 
+    content: counters(item, ".") " "; 
+    counter-increment: item 
+}
+
+.electricBodyImg
+{
+    height: 50%;
+}
+.electricBodyFig
+{
+    width: 35%;
+}
+
