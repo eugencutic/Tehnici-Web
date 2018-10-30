@@ -139,19 +139,92 @@
         <div class="column" id="musicDiv">
             <h2> Music & Genres </h2>
 
-            <h3> <i>Blues</i> </h3>
-            <p>
-                <i>Blues</i> is a music genre and musical form originated by African Americans in the Deep South of the United States around the end of the 19th century. 
-                The genre developed from roots in African musical traditions, African-American work songs, and spirituals.
-                The <i>blues form</i>, ubiquitous in jazz, rhythm and blues and rock and roll, is characterized by the call-and-response pattern, the blues scale and specific chord progressions, of which the twelve-bar blues is the most common. 
-                <b>Blue notes</b> (or <i>"worried notes"</i>), usually thirds or fifths flattened in pitch, are also an essential part of the sound. 
-                Blues shuffles or walking bass reinforce the trance-like rhythm and form a repetitive effect known as the <b><i>groove</i></b>.
-            </p>
+            <span>
+                    <a href="#blues"><i>Blues</i></a> &nbsp
+                    <a href="#jazz"><i>Jazz</i></a> &nbsp
+                    <a href="#rock"><i>Rock</i></a> &nbsp
+                    <a href="#metal"><i>Metal</i></a> &nbsp
+                </span>
 
-            <button id="bluesVideoButton">Show Blues Sample</button>
-            <button id="hideBluesVideoButton">Hide</button>
+            <section id="blues">
 
-            <div id="bluesVideoFrameDiv"></div>
+                <h3> <i>Blues</i> </h3>
+                <p>
+                    <i>Blues</i> is a music genre and musical form originated by African Americans in the Deep South of the United States around the end of the 19th century. 
+                    The genre developed from roots in African musical traditions, African-American work songs, and spirituals.
+                    <br>
+                    The <b>blues form</b>, ubiquitous in jazz, rhythm and blues and rock and roll, is characterized by the call-and-response pattern, the blues scale and specific chord progressions, of which the twelve-bar blues is the most common. 
+                    <br>
+                    <b>Blue notes</b> (or <i>"worried notes"</i>), usually thirds or fifths flattened in pitch, are also an essential part of the sound. 
+                    Blues shuffles or walking bass reinforce the trance-like rhythm and form a repetitive effect known as the <b><i>groove</i></b>.
+                </p>
+
+                <button id="bluesVideoButton" class="button">Show Blues Sample</button>
+                <button id="hideBluesVideoButton" class="button">Hide</button>
+
+                <div id="bluesVideoFrameDiv"></div>
+
+            </section>
+
+            <section id="jazz">
+
+                <h3> <i>Jazz</i> </h3>
+                <p>
+                    <i>Jazz</i> is a music genre that originated in the African-American communities of New Orleans, United States, in the late 19th and early 20th centuries, and developed from roots in <i>blues</i> and <i>ragtime</i>.
+                    <br>
+                    Jazz is seen by many as "America's classical music".
+                    <br>
+                    Since the <i>1920s Jazz Age</i>, jazz has become recognized as a <b>major form of musical expression</b>.
+                    <br>
+                    Jazz is characterized by <b>swing and blue notes</b>, <b>call and response vocals</b>, <b>polyrhythms</b> and <b>improvisation</b>.
+                </p>
+
+                <button id="jazzVideoButton" class="button">Show Jazz Sample</button>
+                <button id="hideJazzVideoButton" class="button">Hide</button>
+
+                <div id="jazzVideoFrameDiv"></div>
+
+            </section>
+
+            <section id="rock">
+
+                <h3><i>Rock</i></h3>
+
+                <p>
+                    <i>Rock</i> music is a broad genre of popular music that originated as <i>"rock and roll"</i> in the United States in the early 1950s.
+                    <br>
+                    It has its roots in 1940s and 1950s <b>rock and roll</b>, a style which drew heavily on the African-American genres of <b>blues</b> and <b>rhythm and blues</b>, and from <b>country</b> music.
+                    <br>
+                    Typically, <i>rock</i> is song-based music usually with a <i>4/4</i> time signature using a verse–chorus form, but the genre has become extremely diverse.
+                    <br>
+                    By the late 1960s "classic rock"[1] period, a number of distinct rock music subgenres had emerged, including hybrids like <i>blues rock, folk rock, country rock, raga rock, and jazz-rock</i> and many others kept emerging to this day.
+                </p>
+
+                <button id="rockVideoButton" class="button">Show Rock Sample</button>
+                <button id="hideRockVideoButton" class="button">Hide</button>
+
+                <div id="rockVideoFrameDiv"></div>
+
+            </section>
+
+            <section id="metal">
+
+                <h3><i>Metal</i></h3>
+
+                <p>
+                        <i>Heavy metal</i> (or simply <i>metal</i>) is a genre of <i>rock music</i> that developed in the late 1960s and early 1970s, largely in the United Kingdom.
+                        <br>
+                        With roots in <i>blues rock, psychedelic rock, and acid rock</i>, the bands that created heavy metal developed a thick, massive sound, characterized by <b>highly amplified distortion</b>, <b>extended guitar solos</b>, <b>emphatic beats</b>, and <b>overall loudness</b>. 
+                        <br>
+                        The genre's lyrics and performance styles are sometimes associated with aggression and machismo.
+                </p>
+
+                <button id="metalVideoButton" class="button">Show Metal Sample</button>
+                <button id="hideMetalVideoButton" class="button">Hide</button>
+
+                <div id="metalVideoFrameDiv"></div>
+
+            </section>
 
         </div>
     
@@ -315,5 +388,9 @@
         </div>
     </div>
     
+    <footer>
+        This project was created with CSS, HTML and JS.
+    </footer>
+
 </body>
 </html>
