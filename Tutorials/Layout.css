@@ -121,14 +121,6 @@ footer
     background-color: crimson;
 }
 
-@media screen and (max-width: 600px)
-{
-    .column
-    {
-        width: 100%;
-    }
-}
-
 #electricConstructSchema 
 {
     padding: 0px;
@@ -160,3 +152,12 @@ footer
     width: 35%;
 }
 
+
+
+@media screen and (max-width: 800px)
+{
+    .column
+    {
+        width: 100%;
+    }
+}
