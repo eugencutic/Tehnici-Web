@@ -159,6 +159,15 @@ footer
     width: 35%;
 }
 
+.classicalBodyImg
+{
+    height: 45%;
+}
+.classicalBodyFig
+{
+    width: 45%;
+}
+
 .button
 {
     background-color: crimson;
@@ -172,6 +181,11 @@ footer
 {
     color: crimson;
     background-color: black;
+}
+
+.classicalTuningTable, .classicalTuningTable tr, .classicalTuningTable th, .classicalTuningTable td
+{
+    border: 1px solid;
 }
 
 @media screen and (max-width: 800px)
