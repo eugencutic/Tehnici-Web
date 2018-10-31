@@ -183,7 +183,12 @@ footer
     background-color: black;
 }
 
-.classicalTuningTable, .classicalTuningTable tr, .classicalTuningTable th, .classicalTuningTable td
+.classicalTuningTable
+{
+    background-color: crimson;
+}
+
+.classicalTuningTable tr, .classicalTuningTable th, .classicalTuningTable td
 {
     border: 1px solid;
 }
