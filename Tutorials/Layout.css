@@ -10,6 +10,7 @@ header
     background-color: crimson;
     padding: 20px;
 }
+
 #musNote
 {
     height: 30px;
@@ -120,6 +121,17 @@ footer
     border: 1px dotted;
     margin: 10px; 
 }
+
+.gittern
+{
+    width: 50%;
+}
+
+.deTorresFig
+{
+    width: 30%;
+}
+
 .guitarFig figcaption 
 {
     border: 1px dotted;
