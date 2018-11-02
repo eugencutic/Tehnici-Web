@@ -132,6 +132,21 @@ footer
     width: 30%;
 }
 
+.acousticFig
+{
+    width: 60%;
+}
+.acousticImg
+{
+    height: 40%;
+}
+
+.acousticShapesFig
+{
+    width: 75%;
+    float: none;
+}
+
 .guitarFig figcaption 
 {
     border: 1px dotted;
