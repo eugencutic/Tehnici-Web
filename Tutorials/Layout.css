@@ -9,6 +9,7 @@ header
     text-align: center;
     background-color: crimson;
     padding: 20px;
+    font-size: 3em;
 }
 
 #musNote
@@ -105,6 +106,18 @@ footer
     text-align: center;
     background-color: #bb1133;
     padding: 20px;
+}
+
+#mainCol1, #mainCol2
+{
+    width: 49.73%;
+    border: crimson 2px solid; 
+    text-align: center;
+}
+
+#instructionsDiv
+{
+    text-align: center;
 }
 
 .guitarImg
@@ -218,6 +231,20 @@ footer
 .classicalTuningTable tr, .classicalTuningTable th, .classicalTuningTable td
 {
     border: 1px solid;
+}
+
+.dragImg
+{
+    height: 20%;
+    width: 20%;
+}
+
+.dropDiv
+{
+    height: 20%;
+    width: 20%;
+    border: 1px solid black;
+    align: center;
 }
 
 @media screen and (max-width: 800px)
