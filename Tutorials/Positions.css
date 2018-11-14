@@ -1,0 +1,43 @@
+p, section
+{
+    border: 2px solid red;
+}
+
+section
+{
+    position: relative;
+}
+
+#static
+{
+    position: static;
+}
+
+#relativ
+{
+    position: relative;
+
+    left: 50px;
+    top: 50px;
+}
+
+#absolut
+{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+#fixed
+{
+    position: fixed;
+    left: 50px;
+    top: 50px;
+}
+
+#sticky
+{
+    position: sticky;
+    bottom: 10px;
+    background: lightgreen;
+}
