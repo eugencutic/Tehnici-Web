@@ -50,15 +50,16 @@ img
     float: left;
     border: 2px solid red;
     
-    transition: width 2s, border 2s 1s, transform 2s 0.5s;
+    animation: myAnimation 2s infinite linear alternate
+    /*transition: width 2s, border 2s 1s, transform 2s 0.5s;*/
 }
 
-img:hover
+/*img:hover
 {
     width: 30%;
     border: 10px solid blue;
     transform: rotate(90deg) translate(0px, -200px);
-}
+}*/
 
 article
 {
@@ -69,4 +70,27 @@ article
 article p:nth-of-type(3)
 {
     clear: both;
+}
+
+@keyframes myAnimation
+{
+    0% {
+        transform: rotate(0deg) translate(0, 0px); 
+    }
+
+    25% {
+        transform: rotate(90deg) translate(0, -100px); 
+    }
+    50% {
+        transform: rotate(180deg) translate(0, -200px); 
+    }
+    75%{
+        transform: rotate(270deg) translate(0, -300px); 
+    }
+
+    100%
+    {
+        transform: rotate(360deg) translate(0, -400px); 
+    }
+
 }
