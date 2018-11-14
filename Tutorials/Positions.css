@@ -16,7 +16,8 @@ section
 #relativ
 {
     position: relative;
-
+    z-index: -1;
+    background: lightblue;
     left: 50px;
     top: 50px;
 }
@@ -38,6 +39,34 @@ section
 #sticky
 {
     position: sticky;
-    bottom: 10px;
+    top: 10px;
     background: lightgreen;
+}
+
+img
+{
+    width: 20%;
+    height: auto;
+    float: left;
+    border: 2px solid red;
+    
+    transition: width 2s, border 2s 1s, transform 2s 0.5s;
+}
+
+img:hover
+{
+    width: 30%;
+    border: 10px solid blue;
+    transform: rotate(90deg) translate(0px, -200px);
+}
+
+article
+{
+    border: 2px solid black;
+    overflow: auto;
+}
+
+article p:nth-of-type(3)
+{
+    clear: both;
 }
