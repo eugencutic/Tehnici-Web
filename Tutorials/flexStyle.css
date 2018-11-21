@@ -1,0 +1,49 @@
+section
+{
+    display: inline-flex;
+    flex-wrap: wrap;
+    border: 2px solid green;
+    width: 100%;
+}
+h1
+{
+    border: 2px solid black;
+}
+img
+{
+    border: 2px solid red;
+    /*width: 620px;*/
+}
+
+figure
+{
+    
+    border: 2px solid blue;
+}
+
+
+#SGFig
+{
+    flex-grow: 3;
+}
+
+#ExplorerFig
+{
+    flex-grow: 1;
+}
+
+#LesPaulFig
+{
+    flex-grow: 1;
+}
+
+.container_ul
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nested_ul
+{
+    display: flex;
+    flex-direction: column;
+}
