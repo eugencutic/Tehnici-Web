@@ -1,0 +1,11 @@
+button {
+    position: absolute;
+}
+button:nth-of-type(2)
+{
+    left: 100px;
+}
+button:nth-of-type(3)
+{
+    left: 200px;
+}
