@@ -9,3 +9,7 @@ button:nth-of-type(3)
 {
     left: 200px;
 }
+p {
+    position: absolute;
+    left: 300px;
+}
