@@ -1,0 +1,87 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Guitars Info</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="Layout.css" />
+    <link rel="stylesheet" type="text/css" href="dragDropQuiz.css" />
+    <script src="dragDropQuiz.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <span><img id="musNote" src="musicalNote.png" alt=" "></span>
+        Guitars
+        <span><img id="musNote" src="musicalNote.png" alt=" "></span>
+    </header>
+
+    <nav>
+
+        <ul>
+            <li>
+                <a href="main.html">Home</a>
+            </li>
+
+            <li>
+                <a href="#">Guitar types</a>
+
+                <ul>
+
+                    <li><a href="classical.html">Classical</a></li>
+                    <li><a href="electric.html">Electric</a></li>
+                    <li><a href="acoustic.html">Acoustic</a></li>
+
+                </ul>
+
+            </li>
+        </ul>
+
+    </nav>
+
+    <div class="wrapper">
+        <div class="sliding-background"></div>
+    </div>
+
+    <div id="instructionsDiv">
+    
+    </div>
+
+    <div class="row">
+
+        <div id="mainCol1" class="column flexContainer">
+            
+            <div>
+                <img id="vihuelaImg" src="vihuelaImg.jpg">
+            </div>
+
+            <div>
+                <img id="gibsonES-150" src="gibsonES-150.jpg">
+            </div>
+
+            <div>
+                <img id="luteImg" src="luteImg.jpg">
+            </div>
+
+        </div>
+    
+        <div id="mainCol2" class="column flexContainer">
+            
+            <div>Gibson ES-150</div>
+            <div>Lute</div>
+            <div>Vihuela</div>
+
+            <input type="button" id="submitImages" value="Submit">
+            <p id="message"></p>
+        </div>
+
+    </div>
+
+    <footer>
+        This educational project was created with CSS, HTML and JS. All information has been extracted from <a href="https://en.wikipedia.org/wiki/Main_Page">Wikipedia</a>
+    </footer>
+
+</body>
+</html>
