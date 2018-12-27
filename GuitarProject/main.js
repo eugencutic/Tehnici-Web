@@ -1,5 +1,7 @@
 window.onload = function()
 {
+    
+
     submitButton = document.getElementById("submitQuestions");
     submitButton.onclick = checkAnswers;
 }

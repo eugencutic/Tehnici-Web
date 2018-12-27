@@ -27,10 +27,9 @@ nav ul
     list-style: none;
     font-weight: bold;
     float: left;
-    width: 100%;
 }
 
-nav ul li
+nav > ul > li
 {
     float: left;
     margin-right: 10px;
@@ -53,12 +52,14 @@ nav a:hover
 nav ul ul
 {
     list-style: none;
-    display: none;
+    position: absolute;
+    visibility: hidden;
+    z-index: 1;
 }
 
-nav ul li:hover ul
+nav ul ul li
 {
-    display: inline-block;
+    background-color: black;
 }
 
 .wrapper
