@@ -9,9 +9,7 @@ function showDateTime()
     let paras = document.querySelectorAll("p");
     let p = paras[0];
     setInterval(function(){
-        //let dt = new Date();
         p.innerHTML = (new Date()).toTimeString();
-        //alert(dt.toDateString());
     }, 1000);
 }
 
