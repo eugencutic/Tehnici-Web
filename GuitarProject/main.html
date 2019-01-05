@@ -1,14 +1,15 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Guitars Info</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="Layout.css" />
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
     <script src="main.js"></script>
     <script src="showSubnavScript.js"></script>
+
+    <base href="file:///F:/Programs/VS%20Code/Tehnici%20Web/Tehnici-Web/GuitarProject/" target="_blank">
 </head>
 
 <body>
@@ -21,15 +22,15 @@
 
     <nav>
 
-        <ul>
+        <ul id="navMenu">
             <li>
                 <a href="#">Home</a>
             </li>
 
-            <li>
-                <a href="#">Guitar types</a>
+            <li class="dropdownTrigger">
+                <a href="">Guitar types</a>
 
-                <ul>
+                <ul class="dropdownContents">
 
                     <li><a href="classical.html">Classical</a></li>
                     <li><a href="electric.html">Electric</a></li>
@@ -39,10 +40,10 @@
 
             </li>
 
-            <li>
+            <li class="dropdownTrigger">
                 <a href="#">Test your knowledge</a>
 
-                <ul>
+                <ul class="dropdownContents">
 
                     <li><a href="dragDropQuiz.html">Image Matching</a></li>
                     <li><a href="#">Quiz</a></li>

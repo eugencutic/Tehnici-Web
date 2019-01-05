@@ -41,6 +41,8 @@ nav a
     padding: 5px;
     color: white;
     text-decoration: none;
+    background-color: none;
+    transition: background-color 450ms, color 0ms;
 }
 
 nav a:hover
@@ -232,6 +234,10 @@ footer
 {
     border: 1px solid;
 }
+
+.dropdownTrigger { z-index: 100; }
+
+.dropdownContents { z-index: 999; }
 
 @media screen and (max-width: 800px)
 {

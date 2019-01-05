@@ -1,0 +1,11 @@
+#mainCol2
+{
+    display: none;
+}
+
+#result
+{
+    visibility: hidden;
+
+    transition: visibility visible;
+}
