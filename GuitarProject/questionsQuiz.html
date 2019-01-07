@@ -6,10 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="Layout.css" />
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
-    <script src="main.js"></script>
+    <script src="questionsQuiz.js"></script>
     <script src="showSubnavScript.js"></script>
-
-    <base href="file:///F:/Programs/VS%20Code/Tehnici%20Web/Tehnici-Web/GuitarProject/" target="_blank">
 </head>
 
 <body>
@@ -24,7 +22,7 @@
 
         <ul id="navMenu">
             <li>
-                <a href="#">Home</a>
+                <a href="main.html">Home</a>
             </li>
 
             <li class="dropdownTrigger">
@@ -46,7 +44,7 @@
                 <ul class="dropdownContents">
 
                     <li><a href="dragDropQuiz.html">Image Matching</a></li>
-                    <li><a href="questionsQuiz.html">Quiz</a></li>
+                    <li><a href="#">Quiz</a></li>
 
                 </ul>
 
@@ -67,10 +65,38 @@
 
         <div id="mainCol1" class="column">
             
+            <form>
+                <p id="question1">Who is a classical composer?</p>
+                <input type="radio" name="q1" value="Alonso Mudarra">Alonso Mudarra <br>
+                <input type="radio" name="q1" value="Francesco Corbetta">Francesco Corbetta <br>
+                <input type="radio" name="q1" value="Matteo Carcassi">Matteo Carcassi <br>
+
+                <p id="question2">What note is the 3rd string in modern standard tuning?</p>
+                <input type="radio" name="q2" value="e">e <br>
+                <input type="radio" name="q2" value="g">g <br>
+                <input type="radio" name="q2" value="A">A <br>
+
+                <p id="question3">Which genre draws heavily on blues, r&b and country?</p>
+                <input type="radio" name="q3" value="Jazz">Jazz <br>
+                <input type="radio" name="q3" value="Metal">Metal <br>
+                <input type="radio" name="q3" value="Rock">Rock <br>
+
+                <p id="question4">What do you call thin metal strips that stop the string at the correct pitch when the player pushes a string against the fingerboard?</p>
+                <input type="radio" name="q4" value="Machine Heads">Machine Heads <br>
+                <input type="radio" name="q4" value="Fret Markers">Fret Markers <br>
+                <input type="radio" name="q4" value="Frets">Frets <br>
+
+                <br>
+
+                <input type="button" id="submitQuestions" value="Submit">
+            </form>
+            
+
         </div>
     
         <div id="mainCol2" class="column">
         
+            <p id="message"></p>
         </div>
     </div>
 

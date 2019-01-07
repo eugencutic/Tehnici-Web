@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="Layout.css" />
     <link rel="stylesheet" type="text/css" href="dragDropQuiz.css" />
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="showSubnavScript.js"></script>
     <script src="dragDropQuiz.js"></script>
 </head>
 
@@ -21,19 +22,31 @@
 
     <nav>
 
-        <ul>
+        <ul id="navMenu">
             <li>
-                <a href="main.html">Home</a>
+                <a href="#">Home</a>
             </li>
 
-            <li>
-                <a href="#">Guitar types</a>
+            <li class="dropdownTrigger">
+                <a href="">Guitar types</a>
 
-                <ul>
+                <ul class="dropdownContents">
 
                     <li><a href="classical.html">Classical</a></li>
                     <li><a href="electric.html">Electric</a></li>
                     <li><a href="acoustic.html">Acoustic</a></li>
+
+                </ul>
+
+            </li>
+
+            <li class="dropdownTrigger">
+                <a href="#">Test your knowledge</a>
+
+                <ul class="dropdownContents">
+
+                    <li><a href="dragDropQuiz.html">Image Matching</a></li>
+                    <li><a href="questionsQuiz.html">Quiz</a></li>
 
                 </ul>
 
@@ -65,6 +78,8 @@
             <div>
                 <img id="luteImg" src="luteImg.jpg">
             </div>
+
+            <button id="retryButton">Retry</button>
 
         </div>
     

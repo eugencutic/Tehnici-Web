@@ -17,6 +17,8 @@ window.onload = function()
     document.getElementById("submitImages").onclick = function() {
         checkAnswers(dropDivs);
     }
+
+    $("#retryButton").on("click", function(){ location.reload(); })
 }
 
 function checkAnswers(dropDivs)
@@ -24,7 +26,7 @@ function checkAnswers(dropDivs)
     let correct = true;
     for(let i = 0; i < dropDivs.length; i++)
     {
-        let img = dropDivs[i].children[0];
+        let img = dropDivs[i].children[1];
         if( i == 0  && img.id != "gibsonES-150")
             correct = false;
 
